@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+  }
+  
+  #main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    min-width: 280px;
+    max-width: 300px;
+  }
+  
+  #navbar {
+    height: 100%;
+    border-right: solid 2.5px #333;
+  }
+  
+  #navbar>h1 {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  #navbar ul {
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 90%;
